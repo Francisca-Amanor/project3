@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simplelightbox.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">devE</h1>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <section class="section-a">
+    <div class="container">
+      <div>
+      <h1>A great setup makes a great developer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Ab delectus quas debitis architecto numquam provident 
+         tenetur temporibus mollitia libero. Recusandae.
+      </p>
+      <a href="#" class="btn">Read more</a>
+    </div>
+    <img src="./images/img4.jpg" alt="set up">
+  </div>
+  </section>
+  <section class="section-b" id="about">
+    <div class="overlay">
+    <div class="section-b-inner py-5">
+      <h3 class="text-2"> Comfortable</h3>
+      <h2 class="text-5 mt-1">How you sit affect how you work</h2>
+      <p class="mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ratione iste assumenda quos error architecto atque voluptatum voluptates dolores consectetur ex beatae eius vel, recusandae unde praesentium hic nulla ullam!
+
+      </p>
+    </div>
+  </div>
+  </section>
+  <section class="section-c">
+    <div class="gallery">
+      <a href="./images/img8.jpg" class="big"> <img src="./images/img8.jpg" alt=""></a>
+      <a href="./images/img6.jpg" class="big"> <img src="./images/img6.jpg" alt=""></a>
+      <a href="./images/img5.jpg" class="big"> <img src="./images/img5.jpg" alt=""></a>
+      <a href="./images/img2.jpg" class="big"> <img src="./images/img2.jpg" alt=""></a>
+      <a href="./images/img4.jpg" class="big"> <img src="./images/img4.jpg" alt=""></a>
+      <a href="./images/img3.jpg" class="big"> <img src="./images/img3.jpg" alt=""></a>
+    </div>
+  </section>
+  <footer class="section-footer py-4 bg-primary">
+    <div class="container">
+      <div>
+        <h2 class="text-2 mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, maiores.</h2>
+        <a href="https://twitter.com/login">
+          <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+    <div>
+      <h3> Our Info</h3>
+      <ul>
+        <li><a href="#">All Products</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Blog Post</h3>
+      <ul>
+        <li><a href="#">Lorem, ipsum dolor.</a></li>
+      <li><a href="#">Lorem, ipsum dolor.</a></li>
+      <li><a href="#">Lorem, ipsum dolor.</a></li>
+      <li><a href="#">Lorem, ipsum dolor.</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Subscribe</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <form class="mt-1" name="email-form" method="POST">
+        <div class="email-form">
+          <span class="form-control-wrap">
+            <input id="email" type="email"size="40" placeholder="E-mail" class="form-control"> 
+          </span> 
+            <button type="submit" value="submit" class="form-control submit">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+        </div>
+      </form>
+    </div>
+    </div>
+  </footer>
+
+  <script>
+    $(function (){
+      const $gallery = $(".gallery a").
+      simpleLightbox();
+    });
+  </script>
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/1.17.2/simple-lightbox.min.js"></script>
+  
+</body>
+
+</html>
